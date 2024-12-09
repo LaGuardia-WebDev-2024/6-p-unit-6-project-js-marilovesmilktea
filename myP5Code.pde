@@ -7,16 +7,42 @@ void setup() {
 
 //🟢Draw Procedure - Runs on Repeat
 void draw(){
-  fill(255,255,255,0);
+  fill(255,255,255,);
   strokeWeight(1);
 
   //💡⬇️⬇️⬇️💡 Your Code For This Project Goes Here
-  fill(250, 224, 235)
-  noStroke()
-  ellipse(200,175, 265, 183);
-  ellipse(125,113,110,40);
-  ellipse(269,113,110,40);
+  fill(250, 224, 235,0);
+  ellipse(200,175, 265, 187);
+  ellipse(130,120,110,70);
+  ellipse(270,120,110,70);
   ellipse(125,236,110,124);
+  ellipse(278,236,110,124);
+  
+  fill(255, 252, 253,0);
+  ellipse(200,195, 170, 150);
+  triangle(123, 171, 173, 123, 134, 111)
+  triangle(275, 170, 225, 123, 270, 111)
+  
+  fill(255, 241, 247,0)
+  ellipse(150,205, 40, 20);
+  ellipse(247,205, 40, 20);
+  
+  strokeWeight(3.5);
+  line(269, 196, 302,188)
+  line(271, 209, 300,210 )
+  line(269, 221,299, 228)
+  line(150, 196, 164, 198)
+  line(164, 198,176, 196)
+  line(222, 196, 230, 198)
+  line(230, 198, 248, 196)
+  
+  strokeWeight(1)
+  ellipse(243, 149, 19, 23)
+  
+ 
+  
+  
+  
 
   
 
