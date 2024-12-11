@@ -12,6 +12,7 @@ void draw(){
 
   //💡⬇️⬇️⬇️💡 Your Code For This Project Goes Here
   fill(250, 224, 235);
+  noStroke()
   ellipse(200,175, 265, 187);
   ellipse(130,120,110,70);
   ellipse(270,120,110,70);
@@ -19,6 +20,7 @@ void draw(){
   ellipse(278,236,110,124);
   
   fill(255, 252, 253);
+  noStroke()
   ellipse(200,195, 170, 150);
   triangle(123, 171, 173, 123, 134, 111)
   triangle(275, 170, 225, 123, 270, 111)
@@ -28,6 +30,7 @@ void draw(){
   ellipse(247,205, 40, 20);
   
   strokeWeight(3.5);
+  stroke(0,0,0)
   line(269, 196, 302,188)
   line(271, 209, 300,210 )
   line(269, 221,299, 228)
@@ -38,22 +41,19 @@ void draw(){
   
   
   
-  strokeWeight(1)
-  ellipse(243, 149, 19, 23)
+  strokeWeight(5)
+  stroke(255, 211, 223)
+  fill(253, 233, 241)
   ellipse(219, 139, 40, 50)
   ellipse(269, 162, 40, 45)
+  ellipse(243, 149, 19, 23)
   
-  strokeWeight(5)
-  line(43, 241, 159, 226)
-  line(43, 282, 159, 267)
-  line(159, 226, 332, 227)
-  line(159, 267, 332, 268)
-  line(332, 227, 400, 244)
-  line(332, 268, 400, 285)
-  line(-2, 259, 43, 241)
-  line(-2, 300, 43, 282)
+  noStroke()
+  fill(255, 237, 240)
+  rect(-1, 270, 400, 400)
   
-  strokeWeight(1)
+  
+  strokeWeight(1) 
   fill(255, 255, 255 )
   ellipse(17,295, 10, 10)
   ellipse(17,330, 10, 10)
@@ -117,6 +117,35 @@ void draw(){
   ellipse(387,330, 10, 10)
   ellipse(387,365, 10, 10)
   ellipse(387, 400, 10, 10)
+  
+  strokeWeight(40)
+  stroke(255, 255, 255)
+  line(-1, 280,47, 260)
+  line(47, 260,147, 249)
+  line(147, 249, 330, 246)
+  line(330, 246, 389, 263)
+  
+  strokeWeight(7)
+  stroke(255, 203, 213)
+  line(43, 241, 159, 226)
+  line(43, 282, 159, 267)
+  line(159, 226, 332, 227)
+  line(159, 267, 332, 268)
+  line(332, 227, 400, 244)
+  line(332, 268, 400, 285)
+  line(-2, 259, 43, 241)
+  line(-2, 300, 43, 282)
+  
+  strokeWeight(5)
+  noStroke()
+  fill(244, 231, 207)
+  ellipse(100, 210, 76, 62)
+  ellipse(70, 189, 25,25)
+  ellipse(125, 187, 25,25)
+  ellipse(77, 250, 25,40)
+  
+  
+  
  
   
   
