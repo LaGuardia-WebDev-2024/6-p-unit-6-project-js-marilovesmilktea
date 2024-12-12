@@ -13,7 +13,7 @@ void draw(){
   //💡⬇️⬇️⬇️💡 Your Code For This Project Goes Here
   fill(250, 224, 235);
   noStroke()
-  ellipse(200,175, 265, 187);
+  ellipse(200,175, 265, 187,)
   ellipse(130,120,110,70);
   ellipse(270,120,110,70);
   ellipse(125,236,110,124);
@@ -138,11 +138,28 @@ void draw(){
   
   strokeWeight(5)
   noStroke()
-  fill(244, 231, 207)
-  ellipse(100, 210, 76, 62)
+  fill(238, 217, 180 )
+  ellipse(100, 210, 80, 62)
   ellipse(70, 189, 25,25)
   ellipse(125, 187, 25,25)
   ellipse(77, 250, 25,40)
+  
+  fill(248, 236, 216 )
+  ellipse(67 ,186, 12, 12)
+  ellipse(125, 186,12, 12)
+  ellipse(104, 225, 25, 20)
+  
+  strokeWeight(8)
+  stroke(0,0,0)
+  point(90, 215)
+  point(117, 213)
+  
+  noStroke()
+  fill(0,0,0)
+  ellipse(104,222, 12, 10)
+  
+  fill(250, 241, 156 )
+  ellipse(200, 203, 15, 9)
   
   
   
